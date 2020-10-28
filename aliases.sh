@@ -1,9 +1,14 @@
 # Avoid mistakes
 alias cd.="cd .."
 alias cd..="cd .."
+
+# Listing files
+alias la='ls -a'a
 alias lsa="ls -a"
+alias ll='ls -l' 
 alias lsl="ls -l"
-alias lsla="ls -la"
+alias l="ls -al"
+alias lsla="ls -al"
 
 # System
 alias up="sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y"
@@ -26,3 +31,11 @@ alias du='du -ch'
 alias rs="rails s"
 alias rdm="rails db:migrate"
 alias rds="rails db:seed"
+
+# Git
+alias gpom="git push origin main"
+alias gs="git status"
+alias gb="git branch"
+alias gcb"git checkout -b"
+alias gcogit checkout"
+alias gc="git commmit -m "
