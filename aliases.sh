@@ -16,6 +16,7 @@ alias ainst="sudo apt install "
 alias apur="sudo apt purge"
 
 # Files 
+alias tgz='tar -xvfz'
 alias untar='tar -zxvf '
 alias sha='shasum -a 256 '
 alias wget='wget -c '
