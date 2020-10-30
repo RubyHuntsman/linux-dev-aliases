@@ -6,7 +6,7 @@ alias cd..="cd .."
 alias la='ls -a'a
 alias lsa="ls -a"
 alias ll='ls -l' 
-alias lsl="ls -l"
+alias lsl="ls -l"d
 alias l="ls -al"
 alias lsla="ls -al"
 
@@ -22,7 +22,8 @@ alias sha='shasum -a 256 '
 alias wget='wget -c '
 
 # Usefull
-alias c='clear'
+alias c='clear'da
+alias cls=clear
 alias h='history'
 alias speed='speedtest-cli --server 2406 --simple'
 alias df='df -H'
