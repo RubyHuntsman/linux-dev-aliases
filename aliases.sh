@@ -41,3 +41,5 @@ alias gb="git branch"
 alias gcb"git checkout -b"
 alias gcogit checkout"
 alias gc="git commmit -m "
+
+# Psql
