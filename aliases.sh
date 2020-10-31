@@ -20,6 +20,7 @@ alias tgz='tar -xvfz'
 alias untar='tar -zxvf '
 alias sha='shasum -a 256 '
 alias wget='wget -c '
+alias rmdir='rmdir - r'
 
 # Usefull
 alias c='clear'da
