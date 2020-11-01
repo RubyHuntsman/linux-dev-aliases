@@ -3,12 +3,12 @@ alias cd.="cd .."
 alias cd..="cd .."
 
 # Listing files
-alias la='ls -a'a
-alias lsa="ls -a"
-alias ll='ls -l' 
-alias lsl="ls -l"d
-alias l="ls -al"
-alias lsla="ls -al"
+alias la='ls -ah'a
+alias lsa="ls -ah"
+alias ll='ls -lh' 
+alias lsl="ls -lh"d
+alias l="ls -alh"
+alias lsla="ls -alh"
 
 # System
 alias up="sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y"
@@ -29,6 +29,9 @@ alias h='history'
 alias speed='speedtest-cli --server 2406 --simple'
 alias df='df -H'
 alias du='du -ch'
+
+# Show human
+free -h
 
 # Ruby on Rails development
 alias rs="rails s"
