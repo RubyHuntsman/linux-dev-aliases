@@ -31,7 +31,7 @@ alias df='df -H'
 alias du='du -ch'
 
 # Show human
-free -h
+alias free='free -h'
 
 # Ruby on Rails development
 alias rs="rails s"
