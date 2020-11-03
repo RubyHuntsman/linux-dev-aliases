@@ -34,9 +34,12 @@ alias du='du -ch'
 alias free='free -h'
 
 # Ruby on Rails development
-alias rs="rails s"
-alias rdm="rails db:migrate"
-alias rds="rails db:seed"
+alias rs='rails s'
+alias rr='rails routes'
+alias rdbm='rails db:migrate'
+alias rdbc='rails db:create'
+alias rdbp='rails db:drop'
+alias rdbs='rails db:seed'
 
 # Git
 alias gpom="git push origin main"
