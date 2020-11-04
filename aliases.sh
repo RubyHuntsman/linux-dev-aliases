@@ -34,6 +34,7 @@ alias du='du -ch'
 alias free='free -h'
 
 # Ruby on Rails development
+alias b='bundle'
 alias rs='rails s'
 alias rr='rails routes'
 alias rdbm='rails db:migrate'
@@ -45,6 +46,7 @@ alias rdbs='rails db:seed'
 alias gpom="git push origin main"
 alias gs="git status"
 alias gb="git branch"
+alias ga='git add'
 alias gcb"git checkout -b"
 alias gcogit checkout"
 alias gc="git commmit -m "
