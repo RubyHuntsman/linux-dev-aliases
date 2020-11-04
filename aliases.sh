@@ -50,5 +50,7 @@ alias ga='git add'
 alias gcb"git checkout -b"
 alias gcogit checkout"
 alias gc="git commmit -m "
+alias gf='git fetch'
+alias gl='git log'
 
 # Psql
